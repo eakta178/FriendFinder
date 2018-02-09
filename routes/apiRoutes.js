@@ -5,40 +5,39 @@ var friends = require("../data/friends");
 
 module.exports = function(app) {
   // Get all friends - provides JSON
-  app.get("/api/:friends?", function(req, res) {
+  app.get("/api/:friends", function(req, res) {
 
     return res.json(friends);
   });
 
-  // Create New Characters - takes in JSON input
+  // Create New friends - takes in JSON input
   app.post("/api/friends", function(req, res) {
-    //Push Code to friends.js
     //Compare score to see best match
     var scoreDiff=[];
-    var score;
     var scoreComp=[];
     
     var newFriend = req.body;
     newFriend.name = newFriend.name.replace(/\s+/g, "").toLowerCase();
     console.log(newFriend);
 
-    
     for(var i=0; i<friends.length; i++ ){
-      for(var j =0; j<=10; j++){
-        scoreDiff[j].push(Math.abs(friends[i].scores[j]-newFriend.scores[j]));
-        score += scoreDiff[j];
-        scoreComp[j].push(score);
+      for(var j =0; j<10; j++){
+        scoreDiff = [];
+        scoreDiff.push(Math.abs(parseInt(friends[i].scores[j])-parseInt(newFriend["scores[]"][j])));
       }
-      
+      scoreComp.push(scoreDiff.reduce((a, b) => a + b, 0));
     }
-  
-    var index = indexOf(Math.min(scoreComp))
+
+    var n = scoreComp.indexOf(Math.min.apply(null, scoreComp));
     var matchName = friends[n].name;
     var matchPhoto = friends[n].photo;
+    var match = {"name":matchName, "photo": matchPhoto};
+    
 
-
+    //Push Code to friends.js    
     friends.push(newFriend);
-    res.json(newFriend);
+    //push the data to frontend
+    res.json(match);
 
 
   });

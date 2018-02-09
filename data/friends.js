@@ -97,70 +97,7 @@ var friends = [
   "5"
   ]
   },
-  {
-  "name": "dfsdf",
-  "photo": "dfsdfs",
-  "scores": [
-  "1",
-  "3",
-  "3",
-  "2",
-  "2",
-  "3",
-  "3",
-  "3",
-  "3",
-  "2"
-  ]
-  },
-  {
-  "name": "dfsdf",
-  "photo": "dfsdfs",
-  "scores": [
-  "1",
-  "3",
-  "3",
-  "2",
-  "2",
-  "3",
-  "3",
-  "3",
-  "3",
-  "2"
-  ]
-  },
-  {
-  "name": "dfsdf",
-  "photo": "dfsdfs",
-  "scores": [
-  "1",
-  "3",
-  "3",
-  "2",
-  "2",
-  "3",
-  "3",
-  "3",
-  "3",
-  "2"
-  ]
-  },
-  {
-  "name": "adda",
-  "photo": "adsdds",
-  "scores": [
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1"
-  ]
-  },
+
   {
   "name": "Hassan",
   "photo": "https://shop.wwe.com/on/demandware.static/-/Sites-wwe-us-navigation/default/dw2a6de264/images/superstar-thumb-300/john-cena-2017.jpg",
@@ -177,102 +114,7 @@ var friends = [
   "5"
   ]
   },
-  {
-  "name": "asdf",
-  "photo": "sedf",
-  "scores": [
-  "4",
-  "4",
-  "4",
-  "4",
-  "4",
-  "4",
-  "4",
-  "4",
-  "4",
-  "4"
-  ]
-  },
-  {
-  "name": "as",
-  "photo": "we",
-  "scores": [
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2"
-  ]
-  },
-  {
-  "name": "123",
-  "photo": "123",
-  "scores": [
-  "2",
-  "2",
-  "4",
-  "1",
-  "4",
-  "5",
-  "2",
-  "3",
-  "5",
-  "1"
-  ]
-  },
-  {
-  "name": "as",
-  "photo": "we",
-  "scores": [
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2"
-  ]
-  },
-  {
-  "name": "name1",
-  "photo": "http://www.vetstreet.com/cats/",
-  "scores": [
-  "4",
-  "3",
-  "2",
-  "2",
-  "1",
-  "1",
-  "3",
-  "4",
-  "3",
-  "1"
-  ]
-  },
-  {
-  "name": "name2",
-  "photo": "https://www.petfinder.com/cats/",
-  "scores": [
-  "4",
-  "3",
-  "2",
-  "2",
-  "1",
-  "1",
-  "3",
-  "4",
-  "3",
-  "1"
-  ]
-  },
+
   {
   "name": "name3",
   "photo": "http://markinternational.info/data/out/574/223950678-cats-pictures.jpg",
@@ -289,22 +131,7 @@ var friends = [
   "1"
   ]
   },
-  {
-  "name": "2",
-  "photo": "2",
-  "scores": [
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2",
-  "2"
-  ]
-  },
+
   {
   "name": "name5",
   "photo": "http://markinternational.info/data/out/574/223950678-cats-pictures.jpg",
@@ -321,38 +148,7 @@ var friends = [
   "1"
   ]
   },
-  {
-  "name": "123",
-  "photo": "123",
-  "scores": [
-  "2",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "1",
-  "2",
-  "1",
-  "1"
-  ]
-  },
-  {
-  "name": "Sas",
-  "photo": "sdfs",
-  "scores": [
-  "4",
-  "2",
-  "4",
-  "3",
-  "3",
-  "3",
-  "3",
-  "3",
-  "3",
-  "4"
-  ]
-  },
+
   {
   "name": "John",
   "photo": "photo.com",
@@ -369,102 +165,8 @@ var friends = [
   "5"
   ]
   },
-  {
-  "name": "Lee",
-  "photo": "here",
-  "scores": [
-  "2",
-  "4",
-  "3",
-  "2",
-  "5",
-  "2",
-  "4",
-  "3",
-  "4",
-  "2"
-  ]
-  },
-  {
-  "name": "Shant",
-  "photo": "a",
-  "scores": [
-  "2",
-  "3",
-  "2",
-  "3",
-  "2",
-  "2",
-  "2",
-  "3",
-  "2",
-  "1"
-  ]
-  },
-  {
-  "name": "Shant",
-  "photo": "a",
-  "scores": [
-  "2",
-  "1",
-  "1",
-  "1",
-  "2",
-  "2",
-  "2",
-  "3",
-  "2",
-  "1"
-  ]
-  },
-  {
-  "name": "Shant",
-  "photo": "a",
-  "scores": [
-  "2",
-  "1",
-  "1",
-  "1",
-  "2",
-  "2",
-  "2",
-  "3",
-  "4",
-  "2"
-  ]
-  },
-  {
-  "name": "Shantb",
-  "photo": "a",
-  "scores": [
-  "3",
-  "3",
-  "5",
-  "1",
-  "2",
-  "2",
-  "2",
-  "3",
-  "4",
-  "2"
-  ]
-  },
-  {
-  "name": "Shantc",
-  "photo": "a",
-  "scores": [
-  "3",
-  "3",
-  "5",
-  "1",
-  "2",
-  "2",
-  "2",
-  "3",
-  "2",
-  "1"
-  ]
-  },
+ 
+
   {
   "name": "test",
   "photo": "https://www.linkedin.com/in/eakta-pandey-57693828/",
@@ -481,22 +183,7 @@ var friends = [
   "2"
   ]
   },
-  {
-  "name": "papadeere",
-  "photo": "https://www.youtube.com/watch?v=5IjmOSFtoJc",
-  "scores": [
-  "3",
-  "3",
-  "3",
-  "3",
-  "3",
-  "3",
-  "3",
-  "2",
-  "2",
-  "3"
-  ]
-  }
+
   ];
 
 module.exports = friends;
