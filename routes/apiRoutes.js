@@ -1,40 +1,45 @@
 // Routes
 // =============================================================
 
-var characters = require("../data/characters");
+var friends = require("../data/friends");
 
 module.exports = function(app) {
-  // Search for Specific Character (or all characters) - provides JSON
-  app.get("/api/:characters?", function(req, res) {
-    var chosen = req.params.characters;
+  // Get all friends - provides JSON
+  app.get("/api/:friends?", function(req, res) {
 
-    if (chosen) {
-      console.log(chosen);
-
-      for (var i = 0; i < characters.length; i++) {
-        if (chosen === characters[i].routeName) {
-          return res.json(characters[i]);
-        }
-      }
-
-      return res.json(false);
-    }
-    return res.json(characters);
+    return res.json(friends);
   });
 
   // Create New Characters - takes in JSON input
-  app.post("/api/new", function(req, res) {
-    // req.body hosts is equal to the JSON post sent from the user
-    // This works because of our body-parser middleware
-    var newcharacter = req.body;
-    // Using a RegEx Pattern to remove spaces from newCharacter
-    // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
-    newcharacter.routeName = newcharacter.name.replace(/\s+/g, "").toLowerCase();
+  app.post("/api/friends", function(req, res) {
+    //Push Code to friends.js
+    //Compare score to see best match
+    var scoreDiff=[];
+    var score;
+    var scoreComp=[];
+    
+    var newFriend = req.body;
+    newFriend.name = newFriend.name.replace(/\s+/g, "").toLowerCase();
+    console.log(newFriend);
 
-    console.log(newcharacter);
+    
+    for(var i=0; i<friends.length; i++ ){
+      for(var j =0; j<=10; j++){
+        scoreDiff[j].push(Math.abs(friends[i].scores[j]-newFriend.scores[j]));
+        score += scoreDiff[j];
+        scoreComp[j].push(score);
+      }
+      
+    }
+  
+    var index = indexOf(Math.min(scoreComp))
+    var matchName = friends[n].name;
+    var matchPhoto = friends[n].photo;
 
-    characters.push(newcharacter);
 
-    res.json(newcharacter);
+    friends.push(newFriend);
+    res.json(newFriend);
+
+
   });
 };
