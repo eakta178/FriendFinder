@@ -1,5 +1,5 @@
 {
-  "name": "starwars-express",
+  "name": "friend-finder",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -13,6 +13,6 @@
     "start": "node server.js",
     "watch": "nodemon server.js"
   },
-  "author": "",
+  "author": "Eakta",
   "license": "ISC"
 }
